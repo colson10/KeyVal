@@ -1,0 +1,29 @@
+@import "./_variables";
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'Graphik', sans-serif;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 0;
+	margin: 0;
+  overflow-y: scroll;
+  font-family: 'Graphik', sans-serif;
+  color: #666;
+	line-height: 1.333;
+	background-color: #333;
+}
